@@ -199,6 +199,7 @@ body{
     position: relative;
     width: 100%;
     padding: 120px 10vw;
+    /* padding: 60px 10vw; */
     color: #fff;
 }
 
@@ -210,11 +211,6 @@ body{
     text-transform: capitalize;
 }
 
-.section-title>h1{
-    display: flex;
-    text-align: center;
-    tex
-}
 
 .section-para{
     width: 50%;
@@ -659,7 +655,7 @@ body{
 
 .footer{
     width: 100%;
-    padding: 100px 10vw;
+    padding: 50px 10vw;
     background: #000;
     display: flex;
     justify-content: space-evenly;
