@@ -108,7 +108,7 @@ body{
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     font-size: 80px;
-    /* text-align: center; */
+    text-align: center;
     text-transform: capitalize; 
 }
 
@@ -205,7 +205,7 @@ body{
 
 .section-title{
     font-size: 30px;
-    font-weight: 400;
+    /* font-weight: 400; */
     text-align: center;
     text-transform: capitalize;
 }
@@ -407,7 +407,6 @@ body{
 .service-text{
     font-size: 20px; /* Try 18px–24px depending on your layout */
     font-weight: 400;
-
     text-align: center;
     padding: 0 20px;
     z-index: 1;
@@ -770,7 +769,7 @@ body{
     }
 
     .section-title{
-        font-size: 50px;
+        font-size: 45px;
     }
     .grid-slider{
         grid-template-rows: repeat(3, 1fr);
