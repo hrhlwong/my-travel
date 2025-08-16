@@ -9,7 +9,6 @@ AOS.init({
 
 //header
 // slider images array
-// const sliderImgs = ["img1.jpg", "australia.jpg", "japen.jpg", "egypt.jpg", "france.jpg", "img6.jpg"];
 
 const sliderImgs = ["img1.jpg", "australia.jpg", "japen.jpg", "egypt.jpg", "france.jpg"];
 let sliderImage = document.querySelector('.background-image');
