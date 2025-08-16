@@ -21,7 +21,7 @@
   --grey-9: hsl(189, 33%, 90%);
   --grey-10: hsl(189, 36%, 98%);
   --primary-white: #fff;
-  --ff-primary: "Noto Serif", serif;
+  --ff-primary: "Noto Serif", "Segoe UI Emoji", serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -108,7 +108,7 @@ body{
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     font-size: 80px;
-    text-align: center;
+    /* text-align: center; */
     text-transform: capitalize; 
 }
 
