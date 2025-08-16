@@ -655,7 +655,7 @@ body{
 
 .footer{
     width: 100%;
-    padding: 50px 10vw;
+    padding: 100px 10vw;
     background: #000;
     display: flex;
     justify-content: space-evenly;
