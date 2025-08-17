@@ -555,8 +555,7 @@ body{
 /* new added css for service*/
 .service-action{
     margin-left: 20px;
-    /* font-size: 14px; */
-        font-size: 18px;
+    font-size: 18px;
     position: relative;
 }
 
@@ -574,34 +573,6 @@ body{
 
 /* book now section */
 
-.book-section{
-    position: relative;
-    display: flex;
-    padding: 0 10vw;
-    /* padding: 120 10vw; */
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    gap: 30px;
-}
-
-.book-now-img{
-    position: absolute;
-    width: 50%;
-    right: 0;
-}
-
-.book-content{
-    width: 50%;
-    color: #fff;
-}
-
-.book-now-title{
-    font-size: 50px;
-    font-weight: 300;
-    width: 300px;
-}
-
 .book-now-text{
     width: 300px;
     opacity: 0.5;
@@ -609,37 +580,19 @@ body{
     margin: 30px 0;
 }
 
-.book-now{
-    position: relative;
+.book-now {
+    display: inline-block;
     padding: 10px 20px;
-    outline: none;
-    border: none;
-    background: #000;
-    text-transform: capitalize;
-    color: #fff;
-    border-radius: 20px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    font-size: 18px;
-    cursor: pointer;
-    overflow: hidden;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
-.book-now::before{
-    content: '';
-    position: absolute;
-    top: -10px;
-    left: -30px;
-    width: 20px;
-    height: 200%;
-    background: #fff;
-    opacity: 0.2;
-    transform: rotate(5deg);
-    transition: .5s;
-}
-
-.book-now:hover::before{
-    left: 100%;
+.book-now:hover {
+    background-color: #0056b3;
 }
 
 .bg-circle-2{
