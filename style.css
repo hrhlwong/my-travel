@@ -407,7 +407,7 @@ body{
 }
 
 .service-text{
-    font-size: 20px; /* Try 18px–24px depending on your layout */
+    font-size: 20px; 
     font-weight: 400;
     text-align: center;
     padding: 0 20px;
@@ -552,7 +552,6 @@ body{
     right: -250px;
 }
 
-/* new added css for service*/
 .service-action{
     margin-left: 20px;
     font-size: 18px;
@@ -569,9 +568,6 @@ body{
     height: 15px;
     background-size: contain;
 }
-
-
-/* book now section */
 
 .book-now-text{
     width: 300px;
@@ -703,7 +699,7 @@ body{
     }
 }
 
-/* much smaller device */
+/* smaller device */
 
 @media screen and (max-width:798px){
     .navbar{
